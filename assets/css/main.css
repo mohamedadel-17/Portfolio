@@ -76,7 +76,6 @@ a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
 }
-
 h1,
 h2,
 h3,
@@ -85,6 +84,9 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
+}
+.portfolio-info h4{
+  color: #ffffff !important;
 }
 
 /* PHP Email Form Messages
@@ -2547,4 +2549,16 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+.logo-container {
+  padding: 10px;
+  border: 3px solid #2F2F2F;
+  border-radius: 12px;
+  background-color: #1B1B1B;
+}
+
+.logo{
+  width: 100px;
+  height: auto;
+  display: block;
 }
